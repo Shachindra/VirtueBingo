@@ -1,0 +1,12 @@
+[package]
+name = "virtuegaming"
+version = "1.0.0"
+upgrade_policy = "compatible"
+
+[addresses]
+admin = "0xb7962020d60bbc67b8ae59d4b0b9f6df72ef26a904ef08cb1585dd620f904c8d"
+
+[dependencies]
+AptosFramework = { local = "../../aptos-core/aptos-move/framework/aptos-framework" }
+AptosStdlib = { local = "../../aptos-core/aptos-move/framework/aptos-stdlib" }
+AptosTokenObjects = { local = "../../aptos-core/aptos-move/framework/aptos-token-objects" }
