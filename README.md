@@ -1,2 +1,2 @@
-# VirtueBingo
-Monorepo for the bingo game on Aptos
+# VirtueGaming
+Monorepo for the Web3 games like bingo on Aptos

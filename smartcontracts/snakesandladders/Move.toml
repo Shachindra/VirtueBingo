@@ -1,0 +1,14 @@
+[package]
+name = "SNL"
+version = "1.0.1"
+upgrade_policy = "compatible"
+
+[addresses]
+deployer = "0xed502b3aa080a68b5bd1c7bfe2c6b9a4af1eaa60bcc2b58dbb02abc14e68a4fd"
+admin = "0xdce55384e87406d53e79e9826060b9284a536270184c819ad6bf5f4fce4bba6a"
+treasury = "0xdce55384e87406d53e79e9826060b9284a536270184c819ad6bf5f4fce4bba6a"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib", rev = "main" }
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token-objects/", rev = "main" }

@@ -1,7 +1,8 @@
 package main
 
 import (
-	"InnerVirtueBingo/api"
+	"VirtueGaming/api"
+	"VirtueGaming/config/dbconfig"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
@@ -10,6 +11,7 @@ import (
 
 func main() {
 	godotenv.Load()
+	dbconfig.DbInit()
 	ginApp := gin.Default()
 	// cors middleware
 	config := cors.DefaultConfig()
